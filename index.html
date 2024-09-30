@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF8-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Responsive Webpage</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <!--Header Section-->
+            <header>
+                <div class="logo">
+                    <img src="./New folder/telemedicine.png.jpg" alt="Telemedicine logo" width="500" height="600">
+                    <h1>Telemedicine</h1>
+                </div>
+            </header>
+            <!-- Navigation Bar -->
+            <nav>
+                <div class="logo">My Website</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Main Content and Sidebar -->
+             <div class="container">
+                <!-- Sidebar Section -->
+                <aside  class="Sidebar>">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Book an Appointment</a></li>
+                        <li><a href="#">Our Doctor</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                    <h2>Search</h2>
+                    <input type="text" placeholder="Search">
+                </aside>
+                <!-- Main Content Section -->
+                <main>
+                    <section id="Home">
+                        <h2>Welcome to Telemedicine</h2>
+                        <p> Telemedicine allows you to consult with your doctor from the comfort of  of your home, connect with our experienced professionals through video calls and get prescription online.</p>
+                    </section>
+                    <section id="Services">
+                        <h2> Our Services</h2>
+                        <p>We offer a variety of healthcare services,inculding remote consultation, medical advice, and prescription. Our platform is designed to give you access to medical care wherever you are.</p>
+                    </section>
+                    <section id="About">
+                        <h2>About Us</h2>
+                        <p>Telemedicine was founded to bridge the gap between patients and doctors, providing easy access to healthcare services for everyone. Our mission is to make healthcare convenient and accessible.</p>
+                    </section>
+                    <section id="Contact">
+                        <h2>Contact Us</h2>
+                        <p>Email: healthcare@telemedicine.com</p>
+                        <p>Phone Number: +2349033805409</p>
+                    </section>
+                </main>
+             </div>
+             <!-- Footer Section -->
+             <footer>
+                <p>&copy; 2024 Telemedicine. All right reserved.</p>
+                <div class="social media">
+                    <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">LinkedIn</a>
+                </div>
+             </footer>
+             <script>
+                // Toggle the hamburger meun
+                const hamburger = document.querySelector('.hamburger-meun');
+                const navlinks = document.querySelector('.nav-links');
+                hamburger.addEventListener('click', () => {
+                    navlinks.classList.toggle('active');
+                });
+             </script>
+        </body>
+    </html>
